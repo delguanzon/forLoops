@@ -35,22 +35,28 @@
 
 Describe: countByUp()
 Test: "It should return null for empty values"
-Code: firstNum = ""
-      finalNum = ""
-      countByUp(firstNum, finalNum)
+Code: countToNumber = ""
+      countByNumber = ""
+      countByUp(countToNumber, countByNumber)
 Expected Output: null
 
 Test: "It should return 0 for non-numerical values"
-Code: firstNum = "a"
-      finalNum = "b"
-      countByUp(firstNum, finalNum)
+Code: countToNumber = "a"
+      countByNumber = "b"
+      countByUp(countToNumber, countByNumber)
 Expected Output: 0
 
 
 Test: "It should return 0 for negative numbers"
-Code: firstNum = -1
-      finalNum = -1
-      countByUp(firstNum, finalNum)
+Code: countToNumber = -1
+      countByNumber = -1
+      countByUp(countToNumber, countByNumber)
+Expected Output: 0
+
+Test: "It should return 0 if the count by number larger than count to numbers"
+Code: countToNumber = 2
+      countByNumber = 5
+      countByUp(countToNumber, countByNumber)
 Expected Output: 0
 
 

@@ -1,11 +1,15 @@
-function countByUp(firstNum, finalNum) {
-  if (firstNum === "" || finalNum === "") {
+function countByUp(countByNum, countToNum) {
+  if (countToNum === "" || countByNum === "") {
     return null;
   }
-  if (!Number(firstNum) || !Number(finalNum)) {
+  if (!Number(countToNum) || !Number(countByNum)) {
     return 0;
   }
-  if (Math.sign(firstNum) === -1 || Math.sign(finalNum) === -1 ) {
+  if (Math.sign(countToNum) === -1 || Math.sign(countByNum) === -1 ) {
     return 0;
   }
+  if (countByNum > countToNum) {
+    return 0;
+  }
+  
 }
