@@ -47,6 +47,13 @@ Code: firstNum = "a"
 Expected Output: 0
 
 
+Test: "It should return 0 for negative numbers"
+Code: firstNum = -1
+      finalNum = -1
+      countByUp(firstNum, finalNum)
+Expected Output: 0
+
+
 ## Known Bugs
 
 * No known bugs. If you find one, please email me at kirsten.opstad@gmail.com with the subject **[_Repo Name_] Bug** and include:
