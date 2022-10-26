@@ -33,7 +33,7 @@
 
 ## Tests
 
-`` Describe: countByUp()
+` Describe: countByUp()
 Test: "It should return null for empty values"
 Code: countToNumber = ""
       countByNumber = ""
@@ -63,7 +63,7 @@ Test: "It should take two numbers, one to count to and another to determine what
 Code: countToNumber = 5
       countByNumber = 20
       countByUp(countToNumber, countByNumber)
-Expected Output: 5, 10, 15, 20 ``
+Expected Output: 5, 10, 15, 20 `
 
 ## Known Bugs
 
