@@ -11,5 +11,7 @@ function countByUp(countByNum, countToNum) {
   if (countByNum > countToNum) {
     return 0;
   }
-  
+  for(let i = countByNum; i <= countToNum; i+=countByNum) {
+    console.log(i);
+  }  
 }

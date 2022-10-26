@@ -59,6 +59,11 @@ Code: countToNumber = 2
       countByUp(countToNumber, countByNumber)
 Expected Output: 0
 
+Test: "It should take two numbers, one to count to and another to determine what multiple to use to get there"
+Code: countToNumber = 5
+      countByNumber = 20
+      countByUp(countToNumber, countByNumber)
+Expected Output: 5, 10, 15, 20
 
 ## Known Bugs
 
